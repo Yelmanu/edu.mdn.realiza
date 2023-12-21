@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+	margin: 0px;
+}
+.cabecera{
+	display: flex;
+	background-color: lightgreen;
+}
+#imagenPortada1{
+	margin-left: 2%;
+	margin-right: 28%;
+	width: 10%;
+}
+#imagenPortada2{
+	margin-left: 28%;
+	margin-right: 2%;
+	width: 10%;
+}
+#titulo{
+	color: hotpink;
+	text-decoration: underline solid 2px salmon;
+	margin-top: 3%;
+}
+.barraNavegacion{
+	border: solid 1px red;
+	background-color: black;
+}
+.botonesNavegacion{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 12%;
+	display: inline-flex;
+	width:28%;
+	border: dashed 2px red;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+}
+main{
+	background-color: #fafad2;
+}
+h2{
+	text-align: center;
+}
+.cajita{
+	background-color: lightgrey;
+	border: solid 2px blue;
+	display: block;
+	width: 15%;
+	height: 6rem;
+}
+#ventaJamones{
+	background-color: lightgray;
+	color: white;
+}
+.imagenesJamones{
+	width: 100%;
+	display: block;
+}
+footer{
+	background-image: url(../multimedia/nav.png);
+	text-align: center;
+	width: 100%;
+	padding-bottom: 70px;
+}
